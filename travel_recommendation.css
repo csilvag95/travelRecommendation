@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("urbanlandscape.jpg");
+    background-size: cover;
+}
+
+nav {
+    background-color: #fff;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.nav-title{
+    margin: .2em;
+    display: flex;
+}
+
+div.nav-title img{
+    width: 2em;
+    height: 2em;
+}
+
+div.nav-title h1{
+    margin-block: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-block: 0;
+    padding-inline: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+div.main-body{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+}
