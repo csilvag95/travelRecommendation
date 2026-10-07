@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url("urbanlandscape.jpg");
+    background-image: url("images/urbanlandscape.jpg");
     background-size: cover;
 }
 
@@ -55,6 +55,30 @@ div.social-links a{
 
 div.social-links a:hover{
     color: red;
+}
+
+div.search-body{
+    color: white;
+    display: none;
+    margin: 5%;
+}
+
+div.search-result{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+div.search-card{
+    text-align: center;
+    color: black;
+    background-color: #f5e5e5ad;
+    border-radius: .5rem;
+    padding: 10px;
+}
+
+div.search-card img{
+    width: 100%;
 }
 
 div.about-us-body{
